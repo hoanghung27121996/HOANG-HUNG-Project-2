@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hover</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27e11796db.js"></script>
+    <title>Test</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            letter-spacing: 1px;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+
+        a {
+            font-family: 'open Sans', sans-serif;
+            color: white;
+            text-decoration: none;
+        }
+
+        p {
+            font-family: 'open Sans', sans-serif;
+            color: white;
+        }
+
+/* PHAN 4 */
+        .phan-4 {
+            background-color: darkkhaki;
+            margin-top: 50px;
+            margin-bottom: 60px;
+            overflow: hidden;
+        }
+        .phan-4 h3 {
+            color: #e91e63;
+            font-size: 40px;
+            margin-bottom: 60px;
+        }
+    /* Nen 70% */
+        .phan4-container-1 { 
+            background-color: lightseagreen;
+            width: 70%;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    /* HINH 1-1 */
+        .phan4-over-1 {
+            background-color: lightblue;
+            width: 22%;
+        }
+        .click-over-1 {
+            width: 22%;
+            height: 296px;
+            text-align: center;
+            padding-top: 110px;
+            visibility: visible;
+            position: absolute;
+            top: -296px;
+        }
+        .click-over-1 a {
+            font-size: 35px;
+        }
+        .click-over-1 p {
+            font-size: 16px;
+        }
+        .phan4-over-1:hover .click-over-1 {
+            background-color: rgba(0, 0, 0, 0.7);
+            visibility: visible;
+            transform: translate(0%, 100%);
+            transition: 0.5s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="phan-4"> <!-- Vang -->
+        <h3>New Games</h3>
+        <div class="phan4-container-1"> <!--FLEX 1 70% -->
+            <div class="phan4-over-1"> <!--Hinh 1-->
+                <div class="click-over-1">
+                    <a href="#">
+                        <h4>Click Here</h4>
+                    </a>
+                    <p>To learn more about this.</p>
+                </div>
+                <img src="img/ng1.jpg" width="100%">
+            </div>
+        </div>
+        
+        </div>
+
+    </div>
+</body>
+
+</html>

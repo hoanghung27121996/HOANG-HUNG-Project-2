@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+a{
+    font-family: 'open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+p{
+    font-family: 'open Sans', sans-serif;
+}
+
+/* PHAN 1 */
+.phan-1 {
+    background-color: aqua;
+    position: relative;
+    z-index: 0;
+}
+.phan-1 a {
+    color: white;
+    text-decoration: none;
+}
+/* SLIDESHOW */
+.slideshow-1>img {
+    display: none;
+}
+/* ON CLICK */
+.prev, .next {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 20px;
+    padding: 22px 15px;
+    color: white;
+    font-size: 18px;
+    /* user-select: none; */
+}
+.next {
+    right: 0%;
+    margin-right: 20px
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.2s;
+}
+@keyframes fade{
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*BAR*/
+.bar {
+    /* background-color: lightgreen; */
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 0%;
+    overflow: hidden;
+}
+/* BAR 1 */
+.bar-1{
+    /* background-color: lightcoral; */
+    float: left;
+    width: 15%;
+    margin-left: 20%;
+    padding-top: 10px;
+    text-align: center;
+}
+.bar-1 h1{
+    font-size: 40px;
+}
+.bar-1 img {
+    width: 30%;
+    vertical-align: middle;
+}
+/* BAR 2 */
+.bar-2{
+    /* background-color: lightsalmon; */
+    float: left;
+    width: 65%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bar-2 a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.bar-2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* margin-top: 10px; */
+}
+.bar-2 li{
+    visibility: visible;
+}
+div.border{
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    padding: 20px 10px;
+    margin-right: 25px;
+    display: inline-block;
+    visibility: hidden;
+}
+div.border:hover {
+    visibility: visible;
+    transition: 0.6s;
+    padding: 10px 10px;
+}
+/* PHAN 2 */
+.phan-2{
+    /* background-color: darkkhaki; */
+    margin-top: 60px;
+}
+.phan-2 h3{
+    color: #e91e63;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.phan-2 h4{
+    color: black;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.phan2-container{
+    /* background-color: lightseagreen; */
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* PHAN 3 */
+.phan-3{
+    background-color: #f4f4f4;
+}
+.phan3-container{
+    /* background-color: lightpink; */
+    width: 65%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.phan-3>h3{
+    color:#071ea0;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.phan3-container h4{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.phan3-container p{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.phan3-container a{
+    color: #E91E63;
+    text-decoration: none;
+    border: 2px solid #E91E63;
+    font-size: 15px;
+    padding: 7px 15px;
+}
+.phan3-container i{
+    background-color: #E91E63;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.phan3-left-1:hover a,.phan3-left-1:hover i{
+    color: white;
+    border: none;
+    background: #071ea0;
+}
+.phan3-left-1{
+    /* background-color: lightseagreen; */
+    width: 24%;
+    text-align: center;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+.phan3-left-2:hover a,.phan3-left-2:hover i{
+    color: white;
+    border: none;
+    background: #071ea0;
+}
+.phan3-left-2{
+    /* background-color: lightseagreen; */
+    width: 24%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.phan3-left-3:hover a,.phan3-left-3:hover i{
+    color: white;
+    border: none;
+    background: #071ea0;
+}
+.phan3-left-3{
+    /* background-color: lightseagreen; */
+    width: 24%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.phan3-left-4:hover a,.phan3-left-4:hover i{
+    color: white;
+    border: none;
+    background: #071ea0;
+}
+.phan3-left-4{
+    /* background-color: lightseagreen; */
+    width: 24%;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+/* PHAN 4 */
+.phan-4 {
+    /* background-color: darkkhaki; */
+    margin-top: 50px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.phan-4 p{
+    color: white;
+}
+.phan-4 h3 {
+    color: #e91e63;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+/* Nen 70% */
+.phan4-container-1 { 
+    /* background-color: lightseagreen; */
+    width: 70%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* HINH 1-1 */
+.phan4-over-1 {
+    background-color: lightblue;
+    width: 22%;
+}
+.click-over-1 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    visibility: visible;
+    position: absolute;
+    top: -296px;
+}
+.click-over-1 a {
+    font-size: 35px;
+}
+.click-over-1 p {
+    font-size: 16px;
+}
+.phan4-over-1:hover .click-over-1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* HINH 2-2 */
+.phan4-over-2{
+    width: 22%;
+}
+.click-over-2 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    visibility: hidden;
+    position: absolute;
+    top: -296px;
+}
+.click-over-2 a {
+    font-size: 35px;
+}
+.click-over-2 p {
+    font-size: 16px;
+}
+.phan4-over-2:hover .click-over-2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* HINH 3 */
+.phan4-over-3{
+    width: 22%;
+}
+.click-over-3 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    visibility: hidden;
+    position: absolute;
+    top: -296px;
+}
+.click-over-3 a {
+    font-size: 35px;
+}
+.click-over-3 p {
+    font-size: 16px;
+}
+.phan4-over-3:hover .click-over-3 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* HINH 4 */
+.phan4-over-4{
+    width: 22%;
+}
+.click-over-4 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    visibility: hidden;
+    position: absolute;
+    top: -296px;
+}
+.click-over-4 a {
+    font-size: 35px;
+}
+.click-over-4 p {
+    font-size: 16px;
+}
+.phan4-over-4:hover .click-over-4 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* FLEX 2 */
+.phan4-container-2 { 
+    /* background-color: lightslategray; */
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* HINH 2-1 */
+.phan4-bot-1{
+    width: 22%;
+}
+.click-bot-1 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    /* visibility: hidden; */
+    position: absolute;
+    top: -296px;
+}
+.click-bot-1 a {
+    font-size: 35px;
+}
+.click-bot-1 p {
+    font-size: 16px;
+}
+.phan4-bot-1:hover .click-bot-1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* HINH 2-2 */
+.phan4-bot-2{
+    width: 22%;
+}
+.click-bot-2 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    visibility: hidden;
+    position: absolute;
+    top: -296px;
+}
+.click-bot-2 a {
+    font-size: 35px;
+}
+.click-bot-2 p {
+    font-size: 16px;
+}
+.phan4-bot-2:hover .click-bot-2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* HINH 2-3 */
+.phan4-bot-3{
+    width: 22%;
+}
+.click-bot-3 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    /* visibility: hidden; */
+    position: absolute;
+    top: -296px;
+}
+.click-bot-3 a {
+    font-size: 35px;
+}
+.click-bot-3 p {
+    font-size: 16px;
+}
+.phan4-bot-3:hover .click-bot-3 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}
+/* HINH 2-4 */
+.phan4-bot-4{
+    width: 22%;
+}
+.click-bot-4 {
+    width: 22%;
+    height: 296px;
+    text-align: center;
+    padding-top: 110px;
+    /* visibility: hidden; */
+    position: absolute;
+    top: -296px;
+}
+.click-bot-4 a {
+    font-size: 35px;
+}
+.click-bot-4 p {
+    font-size: 16px;
+}
+.phan4-bot-4:hover .click-bot-4 {
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: visible;
+    transform: translate(0%, 100%);
+    transition: 0.5s;
+}

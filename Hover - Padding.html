@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <title>Test</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .phan-2{
+            width: 50%;
+            margin: auto;
+            margin-top: 10%;
+            background-color: darkcyan;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 0;
+        }
+        li{
+            visibility: visible;
+        }
+        div.border-1{
+            border-top: solid 3px white;
+            border-bottom: solid 3px white;
+            padding: 20px 10px;
+            display: inline-block;
+            visibility: hidden;
+            /* visibility: visible; */
+        }
+        div.border-1:hover {
+            visibility: visible;
+            transition: 0.5s;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="phan-2">
+        <ul>
+            <div class="border-1">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+            </div>
+
+            <div class="border-1">
+                <li>
+                    <a href="#">Games</a>
+                </li>
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>
