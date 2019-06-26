@@ -23,12 +23,7 @@
             margin: 0;
         }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
+        h1,h2,h3,h4,h5,h6 {
             margin: 0;
             padding: 0;
             text-align: center;
@@ -37,13 +32,11 @@
             font-weight: 500;
             line-height: 1.1;
         }
-
         a {
             font-family: 'open Sans', sans-serif;
             color: white;
             text-decoration: none;
         }
-
         p {
             font-family: 'open Sans', sans-serif;
             color: white;
@@ -61,43 +54,44 @@
             font-size: 40px;
             margin-bottom: 60px;
         }
-    /* Nen 70% */
+    /* Nen 70% Lightseagreen*/
         .phan4-container-1 { 
             background-color: lightseagreen;
             width: 70%;
             margin: auto;
             position: relative;
-            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: space-around;
             flex-wrap: wrap;
         }
-    /* HINH 1-1 */
-        .phan4-over-1 {
+    /* HINH 1 */
+        .phan4-hover-1 {
             background-color: lightblue;
             width: 22%;
         }
-        .click-over-1 {
+        .click-hover-1 {
             width: 22%;
-            height: 296px;
             text-align: center;
             padding-top: 110px;
+            padding-bottom: 98px;
             visibility: visible;
             position: absolute;
             top: -296px;
         }
-        .click-over-1 a {
+        .click-hover-1 a {
             font-size: 35px;
         }
-        .click-over-1 p {
+        .click-hover-1 p {
             font-size: 16px;
         }
-        .phan4-over-1:hover .click-over-1 {
+        .phan4-hover-1:hover .click-hover-1 {
             background-color: rgba(0, 0, 0, 0.7);
             visibility: visible;
             transform: translate(0%, 100%);
-            transition: 0.5s;
+            transition: 0.6s;
+            animation-name: fade;
+            animation-duration: 1s;
         }
 
     </style>
@@ -107,20 +101,18 @@
     <div class="phan-4"> <!-- Vang -->
         <h3>New Games</h3>
         <div class="phan4-container-1"> <!--FLEX 1 70% -->
-            <div class="phan4-over-1"> <!--Hinh 1-->
-                <div class="click-over-1">
+            <div class="phan4-hover-1"> <!--Hinh 1-->
+                <div class="click-hover-1">
                     <a href="#">
                         <h4>Click Here</h4>
                     </a>
                     <p>To learn more about this.</p>
                 </div>
-                <img src="img/ng1.jpg" width="100%">
+                <img src="img/ng4.jpg" width="100%">
             </div>
         </div>
-        
-        </div>
-
     </div>
+    
 </body>
 
 </html>

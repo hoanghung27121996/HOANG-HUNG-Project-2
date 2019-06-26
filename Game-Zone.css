@@ -259,13 +259,12 @@ div.border:hover {
     font-size: 40px;
     margin-bottom: 60px;
 }
-/* Nen 70% */
+/* Nen 70% Lightseagreen*/
 .phan4-container-1 { 
     /* background-color: lightseagreen; */
     width: 70%;
     margin: auto;
     position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -273,14 +272,14 @@ div.border:hover {
 }
 /* HINH 1-1 */
 .phan4-over-1 {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 22%;
 }
 .click-over-1 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
+    padding-bottom: 96px;
     visibility: visible;
     position: absolute;
     top: -296px;
@@ -295,7 +294,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* HINH 2-2 */
 .phan4-over-2{
@@ -303,9 +304,9 @@ div.border:hover {
 }
 .click-over-2 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
+    padding-bottom: 96px;
     visibility: hidden;
     position: absolute;
     top: -296px;
@@ -320,7 +321,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* HINH 3 */
 .phan4-over-3{
@@ -328,9 +331,9 @@ div.border:hover {
 }
 .click-over-3 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
+    padding-bottom: 96px;
     visibility: hidden;
     position: absolute;
     top: -296px;
@@ -345,7 +348,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* HINH 4 */
 .phan4-over-4{
@@ -353,9 +358,9 @@ div.border:hover {
 }
 .click-over-4 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
+    padding-bottom: 96px;
     visibility: hidden;
     position: absolute;
     top: -296px;
@@ -370,7 +375,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* FLEX 2 */
 .phan4-container-2 { 
@@ -391,10 +398,10 @@ div.border:hover {
 }
 .click-bot-1 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
-    /* visibility: hidden; */
+    padding-bottom: 96px;
+    visibility: hidden;
     position: absolute;
     top: -296px;
 }
@@ -408,7 +415,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* HINH 2-2 */
 .phan4-bot-2{
@@ -416,9 +425,9 @@ div.border:hover {
 }
 .click-bot-2 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
+    padding-bottom: 96px;
     visibility: hidden;
     position: absolute;
     top: -296px;
@@ -433,7 +442,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* HINH 2-3 */
 .phan4-bot-3{
@@ -441,10 +452,10 @@ div.border:hover {
 }
 .click-bot-3 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
-    /* visibility: hidden; */
+    padding-bottom: 96px;
+    visibility: hidden;
     position: absolute;
     top: -296px;
 }
@@ -458,7 +469,9 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 /* HINH 2-4 */
 .phan4-bot-4{
@@ -466,10 +479,10 @@ div.border:hover {
 }
 .click-bot-4 {
     width: 22%;
-    height: 296px;
     text-align: center;
     padding-top: 110px;
-    /* visibility: hidden; */
+    padding-bottom: 96px;
+    visibility: hidden;
     position: absolute;
     top: -296px;
 }
@@ -483,5 +496,7 @@ div.border:hover {
     background-color: rgba(0, 0, 0, 0.7);
     visibility: visible;
     transform: translate(0%, 100%);
-    transition: 0.5s;
+    transition: 0.6s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
