@@ -59,7 +59,7 @@ p{
 }
 @keyframes fade{
     from {
-        opacity: 0.5;
+        opacity: 0.6;
     }
     to {
         opacity: 1;
@@ -499,4 +499,99 @@ div.border:hover {
     transition: 0.6s;
     animation-name: fade;
     animation-duration: 1s;
+}
+
+
+/*PHAN 5*/
+div.phan-5{
+    background-image: url("img/sbbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+.phan-5 h3{
+    font-size: 44px;
+    color: white;
+    margin-bottom: 15px;
+}
+.phan-5 p{
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+}
+.phan-5 a.learn{
+    margin-top: 40px;
+    padding: 8px 15px;
+    border: 2px solid white;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+}
+.slides-container{
+    /* background-color: darkcyan; */
+    padding: 100px 0px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+div.noi-dung-1{
+    display: none;
+}
+div.noi-dung-1 ul{
+    list-style: none;
+    position: absolute;
+    right: 0%;
+    top: 45%;
+}
+div.noi-dung-1 li{
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #e91e63;
+}
+div.noi-dung-1>a:hover, div.noi-dung-1 li:hover{
+    border: 2px solid #e91e63;
+    background-color: #e91e63;
+    transition: 0.3s;
+}
+div.noi-dung-2{
+    display: none;
+}
+div.noi-dung-2 ul{
+    list-style: none;
+    position: absolute;
+    right: 0%;
+    top: 45%;
+}
+div.noi-dung-2 li{
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #e91e63;
+}
+div.noi-dung-2>a:hover, div.noi-dung-2 li:hover{
+    border: 2px solid #e91e63;
+    background-color: #e91e63;
+    transition: 0.3s;
+}
+div.noi-dung-3{
+    display: none;
+}
+div.noi-dung-3 ul{
+    list-style: none;
+    position: absolute;
+    right: 0%;
+    top: 45%;
+}
+div.noi-dung-3 li{
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #e91e63;
+}
+div.noi-dung-3>a:hover, div.noi-dung-3 li:hover{
+    border: 2px solid #e91e63;
+    background-color: #e91e63;
+    transition: 0.3s;
 }
