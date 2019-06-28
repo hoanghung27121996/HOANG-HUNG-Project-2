@@ -38,7 +38,7 @@ p{
 }
 /* ON CLICK */
 .prev, .next {
-    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -96,10 +96,10 @@ p{
     float: left;
     width: 65%;
     padding: 10px 0;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 .bar-2 a{
     font-family: 'Raleway', sans-serif;
@@ -109,6 +109,7 @@ p{
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-left: 30%;
     /* margin-top: 10px; */
 }
 .bar-2 li{
@@ -155,7 +156,9 @@ div.border:hover {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+.phan2-left-1{
+    width: 22%;
+}
 
 
 
@@ -166,7 +169,7 @@ div.border:hover {
 }
 .phan3-container{
     /* background-color: lightpink; */
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding: 30px;
     display: flex;
@@ -188,6 +191,7 @@ div.border:hover {
 }
 .phan3-container p{
     font-size: 14px;
+    line-height: 27px;
     margin: 0;
 }
 .phan3-container a{
@@ -269,6 +273,10 @@ div.border:hover {
 }
 .phan-4 p{
     color: white;
+    font-size: 16px;
+}
+.phan-4 a{
+    font-size: 40px;
 }
 .phan-4 h3 {
     color: #e91e63;
@@ -295,16 +303,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: visible;
     position: absolute;
     top: -296px;
-}
-.click-over-1 a {
-    font-size: 35px;
-}
-.click-over-1 p {
-    font-size: 16px;
 }
 .phan4-over-1:hover .click-over-1 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -322,16 +324,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-over-2 a {
-    font-size: 35px;
-}
-.click-over-2 p {
-    font-size: 16px;
 }
 .phan4-over-2:hover .click-over-2 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -349,16 +345,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-over-3 a {
-    font-size: 35px;
-}
-.click-over-3 p {
-    font-size: 16px;
 }
 .phan4-over-3:hover .click-over-3 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -376,16 +366,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-over-4 a {
-    font-size: 35px;
-}
-.click-over-4 p {
-    font-size: 16px;
 }
 .phan4-over-4:hover .click-over-4 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -416,16 +400,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-bot-1 a {
-    font-size: 35px;
-}
-.click-bot-1 p {
-    font-size: 16px;
 }
 .phan4-bot-1:hover .click-bot-1 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -443,16 +421,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-bot-2 a {
-    font-size: 35px;
-}
-.click-bot-2 p {
-    font-size: 16px;
 }
 .phan4-bot-2:hover .click-bot-2 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -470,16 +442,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-bot-3 a {
-    font-size: 35px;
-}
-.click-bot-3 p {
-    font-size: 16px;
 }
 .phan4-bot-3:hover .click-bot-3 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -497,16 +463,10 @@ div.border:hover {
     width: 22%;
     text-align: center;
     padding-top: 110px;
-    padding-bottom: 96px;
+    padding-bottom: 91px;
     visibility: hidden;
     position: absolute;
     top: -296px;
-}
-.click-bot-4 a {
-    font-size: 35px;
-}
-.click-bot-4 p {
-    font-size: 16px;
 }
 .phan4-bot-4:hover .click-bot-4 {
     background-color: rgba(0, 0, 0, 0.7);
@@ -617,7 +577,7 @@ div.noi-dung-3>a:hover, div.noi-dung-3 li:hover{
 
 
 
-/* PHAN 5 */
+/* PHAN 6 */
 div.phan-6{
     /* background-color: darkkhaki; */
     padding-top: 40px;
@@ -632,7 +592,7 @@ div.phan-6 a{
 }
 div.phan-6 div.foot-container{
     /* background-color: darkgoldenrod; */
-    width: 70%;
+    width: 80%;
     padding: 0px 20px;
     margin: auto;
     display: flex;
@@ -655,16 +615,6 @@ div.foot-container h6{
 div.foot-container p{
     font-size: 14px;
 }
-div.foot-container ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-div.foot-container li{
-    display: inline-block;
-    margin-bottom: 35px;
-    margin-right: 10px;
-}
 div.foot-container img{
     vertical-align: middle;
 }
@@ -672,9 +622,23 @@ div.foot-1{
     /* background-color: lightcyan; */
     width: 20%;
 }
+div.foot-1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+div.foot-1 li{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 15px;
+}
+div.foot-1 ul.foot-1-ul-4{
+    margin-bottom: 0;
+}
 div.foot-2{
     /* background-color: lightblue; */
-    width: 40%;
+    width: 35%;
 }
 div.foot-2 div{
     display: inline-block;
@@ -718,7 +682,7 @@ div.foot-2 div.foot-2-bot{
 }
 div.foot-3{
     /* background-color: lightcyan; */
-    width: 24%;
+    width: 23%;
 }
 div.foot-3 h4{
     color: #E91E63;
@@ -733,13 +697,97 @@ div.foot-3 p{
 div.foot-3 p.foot-3-3{
     margin-top: 30px;
 }
+
 div .foot-container-2{
-    width: 60%;
+    width: 62%;
     margin: 30px auto;
-    padding-top: 30px;
+    margin-top: 0px;
+    padding-top: 20px;
     text-align: center;
     border-top: dotted 1px black;
 }
 div .foot-container-2 a:hover{
     text-decoration: underline;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px){
+    .bar-1{
+        margin-left: 15%;
+    }
+    .bar-2 ul{
+        margin-left: 35%;
+    }
+    .phan2-container{
+        width: 80%;
+    }
+    .phan2-left-1{
+        width: 23%;
+    }
+    .phan3-container{
+        width: 80%;
+    }
+    .phan-4 p{
+        font-size: 15px;
+    }
+    .phan-4 a{
+        font-size: 34px;
+    }
+    .click-over-1{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-over-2{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-over-3{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-over-4{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-bot-1{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-bot-2{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-bot-3{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    .click-bot-4{
+        padding-top: 76px;
+        padding-bottom: 60px;
+        top: -220px;
+    }
+    
+    div.phan-6 div.foot-container{
+        width: 90%;
+    }
+    div.foot-container-2{
+        width: 76%;
+    }
+    div.foot-2 {
+        width: 40%;
+    }
+    div.foot-3 {
+        width: 25%;
+    }
 }
